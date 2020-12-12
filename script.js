@@ -14,10 +14,8 @@ document.setAttribute("style","color: yellow;");
 var redType = document.getElementById("red-type");
 redType.style.color= "red";
 
-
-
 /*
-Broken Down
+Code Broken Down
 
 var tickingClock = setInterval(clock, 0);
 // We are setting a variable that makes the clock tick using setInterval. The delay is set to zero so the clock will load with the page and continually display the time.
