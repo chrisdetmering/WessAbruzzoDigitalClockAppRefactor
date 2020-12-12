@@ -18,6 +18,7 @@ main {
     "container1 container1 container1"
     "container2 container2 container2";
 }
+
 #container1 {
     grid-area: container1;
     justify-content: center;

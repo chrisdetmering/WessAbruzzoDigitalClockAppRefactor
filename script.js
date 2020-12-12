@@ -14,6 +14,8 @@ document.setAttribute("style","color: yellow;");
 var redType = document.getElementById("red-type");
 redType.style.color= "red";
 
+
+
 /*
 Code Broken Down
 
