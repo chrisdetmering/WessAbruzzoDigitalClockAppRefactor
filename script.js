@@ -3,11 +3,11 @@ var tickingClock = setInterval(clock, 1000);
 function clock () {
   var myDate = new Date ();
   var clock = myDate.toLocaleTimeString();
-  document.getElementsByClassName("clock").innerHTML = clock;
+  document.getElementById("clock").innerHTML = clock;
 };
 
 //Clock Styles
-var clockColor = document.getElementsByClass("clock");
+var clockColor = document.getElementsById("clock");
 document.setAttribute("style","color: yellow;");
 
 //Pacific Time Styles
