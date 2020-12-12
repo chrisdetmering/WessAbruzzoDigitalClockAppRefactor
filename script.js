@@ -1,5 +1,5 @@
 // Clock
-var tickingClock = setInterval(clock, 1000);
+var tickingClock = setInterval(clock, 0);
 function clock () {
   var myDate = new Date ();
   var clock = myDate.toLocaleTimeString();
@@ -12,15 +12,15 @@ document.setAttribute("style","color: yellow;");
 
 //Pacific Time Styles
 var redType = document.getElementById("red-type");
-document.setAttribute("style", "color: red;");
+redType.style.color= "red";
 
 
 
 /*
 Broken Down
 
-var tickingClock = setInterval(clock, 1000);
-// We are setting a variable that makes the clock tick using setInterval
+var tickingClock = setInterval(clock, 0);
+// We are setting a variable that makes the clock tick using setInterval. The delay is set to zero so the clock will load with the page and continually display the time.
 
 setInterval Syntax
 var intervalId = scope.setInterval(func, [delay, arg1, arg2, ...]);

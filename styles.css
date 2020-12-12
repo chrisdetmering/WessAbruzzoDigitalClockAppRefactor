@@ -1,42 +1,55 @@
-html, body{
-    background-color: white;
-    height: 100%;
-}
 body {
     text-transform: uppercase;
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 main {
-    height: 100%;
-    margin:30px 20px;
+    padding:230px 300px 305px 300px;
+    margin:30px 20px 20px 20px;
     background-color: black;
 }
-#container {
 
-    padding: 100px;
+#container {
     justify-content: center;
     color: red;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 2fr 1fr auto;
     grid-template-areas: 
-    "a a a "
-    "b b b";
+    "container1 container1 container1"
+    "container2 container2 container2";
 }
+#container1 {
+    grid-area: container1;
+    justify-content: center;
+    color: red;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "a a a";
+    font-size: 2em;
+    line-height: .9em;
+}
+
+#container2 {
+    grid-area: container2;
+    justify-content: center;
+    color: red;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "b b b";
+    line-height: 4.5em;
+    margin: -60px;
+}
+
 #top {
     grid-area: a;
     color: rgb(2, 206, 2);
+    justify-content: center;
 }
-#bottom{
+
+#bottom {
     grid-area: b;
-}
-/*
-p {
-    color: yellow;
-}
-*/
-#ob {
     font-size: 2em;
     color: white;
 }
@@ -44,4 +57,12 @@ p {
 #ob:hover {
     color: rgb(2, 206, 2);
     text-transform: lowercase;
+}
+
+a {
+    font-size: 2em;
+}
+
+a:hover {
+    color: red;
 }
