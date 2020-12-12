@@ -1,0 +1,47 @@
+html, body{
+    background-color: white;
+    height: 100%;
+}
+body {
+    text-transform: uppercase;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main {
+    height: 100%;
+    margin:30px 20px;
+    background-color: black;
+}
+#container {
+
+    padding: 100px;
+    justify-content: center;
+    color: red;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 2fr 1fr auto;
+    grid-template-areas: 
+    "a a a "
+    "b b b";
+}
+#top {
+    grid-area: a;
+    color: rgb(2, 206, 2);
+}
+#bottom{
+    grid-area: b;
+}
+/*
+p {
+    color: yellow;
+}
+*/
+#ob {
+    font-size: 2em;
+    color: white;
+}
+
+#ob:hover {
+    color: rgb(2, 206, 2);
+    text-transform: lowercase;
+}
