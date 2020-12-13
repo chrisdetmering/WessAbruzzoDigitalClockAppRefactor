@@ -65,6 +65,10 @@ a {
 }
 
 a:hover {
+    color: yellow;
+}
+
+#colon:hover {
     color: red;
 }
 
@@ -85,15 +89,5 @@ a:hover {
         "a a a"
         "b b b";
     }
-    
-        /*
-    p {
-        margin-top: -10px;
-        margin-bottom: -10px;
-    }
 
-    #container2 {
-        margin-top:-20px;
-    }
-    */
 }
