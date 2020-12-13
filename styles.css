@@ -67,3 +67,33 @@ a {
 a:hover {
     color: red;
 }
+
+/* media quiery- mobile */
+
+@media (max-width: 1200px) {
+    main {
+        padding-top: 80px;
+    }
+    #container1 {
+        line-height: 3.2em;
+        grid-area: container1;
+        justify-content: center;
+        color: red;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "a a a"
+        "b b b";
+    }
+    
+        /*
+    p {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    #container2 {
+        margin-top:-20px;
+    }
+    */
+}

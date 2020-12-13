@@ -8,7 +8,8 @@ function clock () {
 
 //Clock Styles
 var clockColor = document.getElementsById("clock");
-document.setAttribute("style","color: yellow;");
+clockColor.style.color = "yellow";
+clockColor.style.top = "10px";
 
 //Pacific Time Styles
 var redType = document.getElementById("red-type");
