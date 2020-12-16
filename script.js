@@ -1,6 +1,6 @@
 clock()
 setInterval(clock, 1000);
-function clock () {
+function clock() {
   let myDate = new Date ();
   let militaryHours = myDate.getHours(); 
   let standardHours = toStandardHours(militaryHours);
